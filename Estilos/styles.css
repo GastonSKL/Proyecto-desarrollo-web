@@ -1,0 +1,328 @@
+* {
+  font-family: 'Noto Sans HK', sans-serif;
+  margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+.separador {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.separador-content {
+  background-color: #2c3d50;
+  width: 150%;
+  height: 100px;
+  margin-left: -25%;
+  border-bottom-left-radius: 75%;
+  border-bottom-right-radius: 75%;
+}
+
+.separador .separador-contentbottom {
+  background-color: #cfcfda;
+  width: 125%;
+  height: 100px;
+  margin-left: -25%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.col .boton-footer {
+  background-color: #cfcfda;
+}
+
+.tarjetas .tarjetas-contenido {
+  text-transform: uppercase;
+  color: darkblue;
+}
+
+.tarjetas {
+  background-color: #cfcfda;
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+  color: black;
+  text-transform: lowercase;
+}
+
+footer {
+
+  background: #2c3d50;
+  width: 100%;
+  overflow: auto;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.bg-same{
+  background: #2c3d50;
+} 
+
+.banner-wraper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 3% 0;
+}
+
+.icon-text {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.icon-text-icon {
+  width: 20%;
+  float: right;
+  padding: 4%;
+}
+
+.navegacionfooter {
+  text-align: start;
+}
+
+.navegacionfooter a{
+  font-size: 110%;
+  color: #c3d7df;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.navegacionfooter a:hover{
+  color: #f5f5f5;
+
+}
+
+.current {
+  color: #3f5767;
+}
+
+.social {
+  text-align: center;
+}
+
+.social li{
+  display: inline;
+}
+
+.social li a:hover {
+  color: #f5f5f5;
+  
+
+}
+
+.social li a i{
+  font-size: 250%;
+  padding: 8%;
+  float:right;
+  color: #c3d7df;
+}
+
+ul {
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+  color: #524c56;
+  font-weight: bold;
+
+}
+
+a:hover {
+  color: #c3d7df;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.icon-text-text {
+  float:center;
+  width: 30%;
+  padding: 4% 4% 8% 1%;
+  border-left: 100px;
+}
+
+.arreglodelpadding {
+  clear: both;
+  padding: 2%;
+}
+
+.one-third-padding {
+  width: 29%;
+  float: left;
+  margin: 2% 2%;
+
+}
+
+.one-third-padding h3 {
+  font-size: 175%;
+  font-weight: 500;
+  line-height: 155%;
+  color: #524c56;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.one-third-padding img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: -4px;
+}
+
+.one-third-padding p { 
+    color: #524c56;
+    font-size: 140%;
+    line-height: 130%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+
+}
+
+.left-col {
+  float: left;
+  margin: 0 auto;
+  width: 60%;
+  height: auto;
+  padding: 1%;
+}
+
+.left-col p{
+  transition: all 1s ease-in-out;
+}
+
+.left-col p:hover {
+  background-color: lightgrey;
+  scale: (1.1);
+  
+}
+
+
+
+.sidebar {
+  float: right;
+  margin: 0 auto;
+  width: 34%;
+  height: auto;
+  padding: 1%;
+}
+
+.sidebar img {
+  height: 400px;
+  width: 225px;
+  transition: all 0.5s ease-in-out;
+  
+}
+
+.sidebar img:hover {
+  transform: scale(125%);
+  border-radius: 25%;
+}
+
+.content-contacto{
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+
+}
+
+.logo-contacto {
+  text-align: center;
+  font-size: 3em;
+  padding: 0.5em;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 black;
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form{
+  background: lightgray;
+}
+
+.contact-info{
+  background: lightslategray;
+}
+
+.contact-form form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form p{
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  border-bottom: 1px solid black;
+  outline: 0;
+  
+}
+
+.contact-form form button{
+  background: cadetblue;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: darkslategray;
+  color: white;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact-info ul {
+  padding: 0;
+}
+
+.contact-info ul li {
+  padding: 0.3em;
+}
+
+/* Grande */
+
+@media (min-width:700px ) {
+  body{
+    padding: 0 4rem;
+  }
+  .contact-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
